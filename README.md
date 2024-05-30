@@ -10,7 +10,6 @@ the types of products included in the inventory, and the location and capacity p
 to another such as productCode, customerNumber, orderNumber, and warehouseCode.
 
 ## SETTING UP THE PROJECT
-
 ### - Making a new connection in MySQL
 ![new-database-connection-1](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/19efb35f-9812-4fb8-8050-ca8ab4c89cb5)
 ![new-database-connection-2](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/65ab1794-ddad-435d-8015-db09420da61d)
@@ -22,11 +21,10 @@ to another such as productCode, customerNumber, orderNumber, and warehouseCode.
 ![importing-database-3](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/e8bc10c1-7af8-4f46-bc11-8fb66cd44da6)
 
 ## ANSWERING BUSINESS QUESTIONS
-
 ### Question 1.) Where are items stored?
 #### - SQL Query
 ![question1-query-ss](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/cff523ed-2b52-4855-a344-463c1e45bd6d)
-#### -- Query Results
+#### - Query Results
 ![question1-query-results1-ss](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/f79a04c6-5af6-41a9-a055-02da7121fc11) 
 ![question1-query-results2-ss](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/7b473485-7562-4ab2-9001-95176b775f49)
 
