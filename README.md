@@ -1,4 +1,5 @@
-# [Mint Classics Company Exploratory Analysis]
+# Mint Classics Car Company Exploratory Analysis
+![18b4fb3ccaf5aab6f2f8c4fbf0fb8736](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/4a947995-b850-4d8d-a028-d7adf2c466a9)
 
 ## DESCRIPTION OF THE BUSINESS PROBLEM
   The Mint Classics Company is looking at closing on of their storage facilities. In order to achieve this goal, exploratory analysis will be conducted on the data provided
@@ -8,6 +9,31 @@ to give recommendations to the company on how to reduce and reorganize inventory
   The data provided by the company includes data tables about the customers, the employees of the company, the location of the company offices, payment information, order information,
 the types of products included in the inventory, and the location and capacity percentage of the company warehouses. These tables have different primary keys that can link one table 
 to another such as productCode, customerNumber, orderNumber, and warehouseCode.
+
+## CONCLUSION
+### Recommendations
+1.) In order to achieve the goal of closing a storage facility the company should look into combining warehouses b and c.
+These two warehouses contain similar products (classic and vintage cars) and have more capacity to work with than the other warehouses. The company would have to look into how
+costly and time consuming it would be to move the products from one warehouse to another since one is on the east side and the other is on the west. Classic and vintage cars 
+have the highest quantities in stock and are also some of the lowest selling products, so reducing the quantity on hand would aid in making room to combine the two warehouses. 
+The company can only decrease the inventory of hand of items that are in excess of the amount ordered to ensure customer satisfaction is not affected. This will achieve 
+the goal of closing one of the storage facilities.
+
+2.) Another recommendation for the company to consider would be to close warehouse a and move the products to warehouses c and d. Warehouse a holds motorcyles and planes,
+two very different products. The quantity of these two products held in the warehouse is almost evenly split so it should make the task of dividing the products into two
+different warehouses easier. The planes should be moved into warehouse d because this warehouse already holds the companies larger items (trucks, buses, ships and trains).
+The quantity of these products would have to be reduced and moving large planes will likely be tasking. The motorcycles should be moved to warehouse c. Warehouse c is only
+at half capacity so it has much more room for inventory and can easily accomodate all of the motorcycles in warehouse a. 
+
+### Limitations/Areas for Further Research
+  It is not clear with the data provided how much the company spends on maintaining current inventory. This information would help in showing the cost-effectiveness of reducing 
+inventory. Information like maintenance and repair costs would be very useful. It is also not clear how much it would cost to relocate inventory to different warehouses. This information
+would influence the recommendations given to the company. For example, if the cost of moving very large items such as planes greatly outweighs the current cost of maintaining
+this product then it would be a viable option to in fact not close a warehouse. Company financials are also a factor that would influence the recommendations given to the company. 
+Does the company have enough cash on hand to be able to afford moving these items? If not, would it be worth taking on more debt to able to afford to move inventory? Another area to 
+research would be how reorganizing inventory would effect customer experience. It is reasonable to believe that relocating inventory from one warehouse to another would have some 
+negative effect on when customers will be able to recieve orders since products will be in the process of moving and it is unclear on how long the relocation process would take. 
+The company will have to decide if some momentary order delays for customers is worth closing down a warehouse.
 
 ## SETTING UP THE PROJECT
 ### - Making a new connection in MySQL
@@ -59,30 +85,7 @@ to another such as productCode, customerNumber, orderNumber, and warehouseCode.
 ![question5-query-results3-ss](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/6121edb6-de2a-4340-9dce-77aab3757a00)
 ![question5-query-results4-ss](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/23ce1d39-267e-4716-96ed-0c91d53765e3)
 
-## CONCLUSION
-### Recommendations
-1.) Based on the analysis that was conducted, in order to achieve the goal of closing a storage facility the company should look into combining warehouses b and c.
-These two warehouses contain similar products (classic and vintage cars) and have more capacity to work with than the other warehouses. The company would have to look into how
-costly and time consuming it would be to move the products from one warehouse to another since one is on the east side and the other is on the west. Classic and vintage cars 
-have the highest quantities in stock and are also some of the lowest selling products, so reducing the quantity on hand would aid in making room to combine the two warehouses. 
-The company can only decrease the inventory of hand of items that are in excess of the amount ordered to ensure customer satisfaction is not affected. This will achieve 
-the goal of closing one of the storage facilities.
 
-2.) Another recommendation for the company to consider would be to close warehouse a and move the products to warehouses c and d. Warehouse a holds motorcyles and planes,
-two very different products. The quantity of these two products held in the warehouse is almost evenly split so it should make the task of dividing the products into two
-different warehouses easier. Moving the planes into warehouse d would make sense because this warehouse already holds the companies larger items (trucks, buses, ships and trains).
-The quantity of these products would have to be reduced and moving large planes will likely be tasking. The motorcycles should be moved to warehouse c. Warehouse c is only
-at half capacity so it has much more room for inventory and can easily accomodate all of the motorcycles in warehouse a. 
-
-### Limitations/Areas for Further Research
-  It is not clear with the data provided how much the company spends on maintaining current inventory. This information would help in showing the cost-effectiveness of reducing 
-inventory. Information like maintenance and repair costs would be very useful. It is also not clear how much it would cost to relocate inventory to different warehouses. This information
-would definitely influence the recommendations given to the company. For example, if the cost of moving very large items such as planes greatly outweighs the current cost of maintaining
-this product then it would be a viable option to in fact not close a warehouse. Company financials are also a factor that would influence the recommendations given to the company. 
-Does the company have enough cash on hand to be able to afford moving these items? If not, would it be worth taking on debt to able to afford to move inventory? Another huge area to 
-research would be how reorganizing inventory would effect customer experience. It is reasonable to believe that relocating inventory from one warehouse to another would have some 
-negative effect on when customers will able to recieve orders and it is unclear on how long the relocation process would take. The company will have to decide if some momentary order 
-delays for customers is worth closing down a warehouse.
 
 
 
