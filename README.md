@@ -2,7 +2,7 @@
 ![18b4fb3ccaf5aab6f2f8c4fbf0fb8736](https://github.com/dwhite256/Mint-Classics-Company-Exploratory-Analysis/assets/170587320/4a947995-b850-4d8d-a028-d7adf2c466a9)
 
 ## DESCRIPTION OF THE BUSINESS PROBLEM
-  The Mint Classics Company is looking at closing on of their storage facilities. In order to achieve this goal, exploratory analysis will be conducted on the data provided
+  The Mint Classics Company is looking at closing one of their storage facilities. In order to achieve this goal, exploratory analysis will be conducted on the data provided
 to give recommendations to the company on how to reduce and reorganize inventory.
 
 ## DESCRIPTION OF THE DATA
@@ -13,8 +13,7 @@ to another such as productCode, customerNumber, orderNumber, and warehouseCode.
 ## CONCLUSION
 ### Recommendations
 1.) In order to achieve the goal of closing a storage facility the company should look into combining warehouses b and c.
-These two warehouses contain similar products (classic and vintage cars) and have more capacity to work with than the other warehouses. The company would have to look into how
-costly and time consuming it would be to move the products from one warehouse to another since one is on the east side and the other is on the west. Classic and vintage cars 
+These two warehouses contain similar products (classic and vintage cars) and have more capacity to work with than the other warehouses. Classic and vintage cars 
 have the highest quantities in stock and are also some of the lowest selling products, so reducing the quantity on hand would aid in making room to combine the two warehouses. 
 The company can only decrease the inventory of hand of items that are in excess of the amount ordered to ensure customer satisfaction is not affected. This will achieve 
 the goal of closing one of the storage facilities.
@@ -30,7 +29,7 @@ at half capacity so it has much more room for inventory and can easily accomodat
 inventory. Information like maintenance and repair costs would be very useful. It is also not clear how much it would cost to relocate inventory to different warehouses. This information
 would influence the recommendations given to the company. For example, if the cost of moving very large items such as planes greatly outweighs the current cost of maintaining
 this product then it would be a viable option to in fact not close a warehouse. Company financials are also a factor that would influence the recommendations given to the company. 
-Does the company have enough cash on hand to be able to afford moving these items? If not, would it be worth taking on more debt to able to afford to move inventory? Another area to 
+Does the company have enough cash on hand to be able to afford moving these items? If not, would it be worth taking on more debt to be able to afford to move inventory? Another area to 
 research would be how reorganizing inventory would effect customer experience. It is reasonable to believe that relocating inventory from one warehouse to another would have some 
 negative effect on when customers will be able to recieve orders since products will be in the process of moving and it is unclear on how long the relocation process would take. 
 The company will have to decide if some momentary order delays for customers is worth closing down a warehouse.
