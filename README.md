@@ -15,7 +15,7 @@ to another such as productCode, customerNumber, orderNumber, and warehouseCode. 
 1.) In order to achieve the goal of closing a storage facility the company should look into combining warehouses b and c.
 These two warehouses contain similar products (classic and vintage cars) and have more capacity to work with than the other warehouses. Classic and vintage cars 
 have the highest quantities in stock and are also some of the lowest selling products, so reducing the quantity on hand would aid in making room to combine the two warehouses. 
-The company can only decrease the inventory of hand of items that are in excess of the amount ordered to ensure customer satisfaction is not affected. This will achieve 
+The company can only decrease the inventory on hand of items that are in excess of the amount ordered to ensure customer satisfaction is not affected. This will achieve 
 the goal of closing one of the storage facilities.
 
 2.) Another recommendation for the company to consider would be to close warehouse a and move the products to warehouses c and d. Warehouse a holds motorcyles and planes,
