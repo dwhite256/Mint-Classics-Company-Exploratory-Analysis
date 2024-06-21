@@ -10,6 +10,8 @@ to give recommendations to the company on how to reduce and reorganize inventory
 the types of products included in the inventory, and the location and capacity percentage of the company warehouses. These tables have different primary keys that can link one table 
 to another such as productCode, customerNumber, orderNumber, and warehouseCode. The fictional company database for this project was provided by Coursera.
 
+LINK TO PROJECT: https://www.coursera.org/projects/showcase-analyze-data-model-car-database-mysql-workbench
+
 ## CONCLUSION
 ### Recommendations
 1.) In order to achieve the goal of closing a storage facility the company should look into combining warehouses b and c.
