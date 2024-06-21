@@ -31,10 +31,7 @@ at half capacity so it has much more room for inventory and can easily accomodat
 inventory. Information like maintenance and repair costs would be very useful. It is also not clear how much it would cost to relocate inventory to different warehouses. This information
 would influence the recommendations given to the company. For example, if the cost of moving very large items such as planes greatly outweighs the current cost of maintaining
 this product then it would be a viable option to in fact not close a warehouse. Company financials are also a factor that would influence the recommendations given to the company. 
-Does the company have enough cash on hand to be able to afford moving these items? If not, would it be worth taking on more debt to be able to afford to move inventory? Another area to 
-research would be how reorganizing inventory would effect customer experience. It is reasonable to believe that relocating inventory from one warehouse to another would have some 
-negative effect on when customers will be able to recieve orders since products will be in the process of moving and it is unclear on how long the relocation process would take. 
-The company will have to decide if some momentary order delays for customers is worth closing down a warehouse.
+Does the company have enough cash on hand to be able to afford moving these items? If not, would it be worth taking on more debt to be able to afford to move inventory? It is reasonable to believe that relocating inventory from one warehouse to another would have some negative effect on when customers will be able to recieve orders since products will be in the process of moving and it is unclear on how long the relocation process would take. The company will have to decide if some momentary order delays for customers is worth closing down a warehouse.
 
 ## SETTING UP THE PROJECT
 ### - Making a new connection in MySQL
